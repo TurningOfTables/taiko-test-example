@@ -1,0 +1,19 @@
+{
+  "name": "taiko-test-example",
+  "version": "1.0.0",
+  "description": "A sample project for Taiko tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurningOfTables/taiko-test-example.git"
+  },
+  "author": "TurningOfTables",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TurningOfTables/taiko-test-example/issues"
+  },
+  "homepage": "https://github.com/TurningOfTables/taiko-test-example#readme"
+}
