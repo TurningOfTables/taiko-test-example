@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A sample project for Taiko tests",
   "scripts": {
-    "start-sample-site": "node sample_site/sample.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-server": "node sample_site/sample.js",
+    "jest-tests": "npx jest --verbose",
+    "test": "start-server-and-test start-server http://localhost:3000 jest-tests"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "homepage": "https://github.com/TurningOfTables/taiko-test-example#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "jest": "^26.6.1",
+    "start-server-and-test": "^1.11.5",
     "taiko": "^1.0.26"
   }
 }
