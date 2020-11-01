@@ -2,8 +2,8 @@
   "name": "taiko-test-example",
   "version": "1.0.0",
   "description": "A sample project for Taiko tests",
-  "main": "index.js",
   "scripts": {
+    "start-sample-site": "node sample_site/sample.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/TurningOfTables/taiko-test-example/issues"
   },
-  "homepage": "https://github.com/TurningOfTables/taiko-test-example#readme"
+  "homepage": "https://github.com/TurningOfTables/taiko-test-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "taiko": "^1.0.26"
+  }
 }
